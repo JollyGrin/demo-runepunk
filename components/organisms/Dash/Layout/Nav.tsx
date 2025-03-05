@@ -29,7 +29,7 @@ export function DashNav(props: { playerName?: string }) {
         h="10rem"
       >
         <HStack gap="1rem" as={Link} href="/dash">
-          <Image src="/runepunk_logo_light.png" alt="logo" boxSize="7rem" />
+          <Image src="/demo-runepunk/runepunk_logo_light.png" alt="logo" boxSize="7rem" />
         </HStack>
         <HStack justifyContent="center">
           <Button
