@@ -30,9 +30,9 @@ export const Nav = ({ showLogo = true }: { showLogo?: boolean }) => (
       {/* <Text>Litepaper</Text> */}
     </HStack>
     <HStack flexWrap="wrap" justifyContent="center">
-      {/* <Box transform="scale(0.5)" mx="-8rem"> */}
-      {/*   <ButtonHero>CONNECT WITH US</ButtonHero> */}
-      {/* </Box> */}
+      <Box as={Link} href='/dash' transform="scale(0.5)" mx="-8rem">
+        <ButtonHero>Dashboard</ButtonHero>
+      </Box>
       <Button as={Link} href={HREF_DISCORD} variant="ghost">
         <IconDiscord size="4rem" />
       </Button>
