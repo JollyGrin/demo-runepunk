@@ -22,7 +22,7 @@ type ExtraProps = {
 };
 export function Chest(props?: Omit<PrimitiveProps, "object"> & ExtraProps) {
   const [index, setIndex] = useState(0);
-  const { scene, animations } = useGLTF("/models/lootbox.glb");
+  const { scene, animations } = useGLTF("/demo-runepunk/models/lootbox.glb");
   const { actions } = useAnimations(animations, scene);
   // const currentAnimation = ANIMATIONS.START;
   // const currentAnimation =

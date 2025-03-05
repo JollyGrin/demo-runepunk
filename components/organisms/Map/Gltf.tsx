@@ -5,7 +5,7 @@ import * as THREE from "three";
 import { useRouter } from "next/router";
 
 function Model(props?: Omit<PrimitiveProps, "object">) {
-  const { scene } = useGLTF("/models/map.glb");
+  const { scene } = useGLTF("/demo-runepunk/models/map.glb");
   return <primitive object={scene} {...props} />;
 }
 
